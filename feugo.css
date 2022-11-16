@@ -1,0 +1,365 @@
+
+
+.h5, h5 {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.btn-warning {
+    color: #000;
+    background-color: #214a4f;
+    border-color: #214a4f;
+    color: rgb(255, 255, 255);
+}
+
+.navbar{
+    background-color: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.navbar-nav li a {
+    color: rgb(0, 0, 0) !important;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.banner{
+    background: -webkit-linear-gradient(right,  #a517ba 0%,#5f1782 100%);
+}
+
+.bottom-img{
+    margin-top: -1px;
+   
+}
+
+.add-to-cart{
+    width: 100%;
+}
+
+.laptop {
+    margin-top: 39px;
+    margin-bottom: 28px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.woman-caption-1{
+    position: absolute;
+    top: 54%;
+    left: -8;
+    transform: translateY(-80%);
+    margin-top: -40px;
+
+}
+
+.woman-caption-2{
+    position: absolute;
+    top: 55%;
+    left: -8;
+    transform: translateY(-80%);
+    margin-top: -40px;
+
+}
+
+.woman-spring h1{
+    font-size: 80px;
+    font-weight: 600;
+
+}
+
+.woman-spring h2{
+    font-size: 44px;
+    font-weight: 600;
+    color: black;
+
+}
+
+.woman-spring p{
+    font-weight: 600;
+}
+
+.woman-spring-2 p{
+    font-weight: 500;
+
+}
+
+.woman-spring-2 h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(84, 0, 100);
+
+}
+
+.woman-spring-2 h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: rgb(109, 4, 65);
+
+}
+
+.woman-spring-2 h3{
+    font-size: 27px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+
+}
+
+.man-caption{
+    position: absolute;
+    top: 55%;
+    left: 1;
+    transform: translateY(-80%);
+    margin-top: -40px;
+
+}
+
+.man-special p{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(43, 42, 43);
+}
+
+.man-special h2{
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(1, 45, 75);
+
+}
+
+.man-special h1{
+    font-size: 75px;
+    font-weight: 900;
+    color: rgb(160, 4, 4);
+
+}
+
+.man-special h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(15, 2, 2);
+
+}
+
+.bg-offer{
+    background-color: #f3f4f5;
+}
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: -1px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: lightgrey;
+    font-size: 15px;
+}
+
+.message{
+    position: fixed;
+    bottom: 8px;
+    right:15px;
+}
+
+.help{
+    text-decoration: none;
+    color: grey;
+    text-align: left;
+}
+
+.help :active{
+    color: grey;
+}
+
+.help :hover{
+    color: black;
+}
+
+.follow{
+    margin-right: 15px; 
+    font-size: 40px;
+    color:rgb(34, 33, 33)
+}
+
+@media only screen and (max-width: 1024px) {
+    .woman-spring h1{
+        font-size: 59px;
+        font-weight: 600;
+        color: black;
+       
+    }
+
+    .woman-spring h2{
+        font-size: 35px;
+        font-weight: 500;
+        color: black;
+    
+    }
+    
+    .woman-spring p{
+        font-weight: 600;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .woman-spring-2 p{
+        font-weight: 500;
+    
+    }
+    
+    .woman-spring-2 h2{
+        font-size: 25px;
+        font-weight: 900;
+        color: rgb(84, 0, 100);
+    
+    }
+    
+    .woman-spring-2 h1{
+        font-size: 53px;
+        font-weight: 900;
+        color: rgb(109, 4, 65);
+    
+    }
+    
+    .woman-spring-2 h3{
+        font-size: 20px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+    
+    }
+
+    .man-special p{
+        font-weight: 700;
+        font-size: 20px;
+        color: rgb(43, 42, 43);
+    }
+
+    .man-special h2{
+        font-size: 25px;
+        font-weight: 900;
+        color: rgb(1, 45, 75);
+    
+    }
+    
+    .man-special h1{
+        font-size: 60px;
+        font-weight: 900;
+        color: rgb(160, 4, 4);
+    
+    }
+    
+    .man-special h3{
+        font-size: 22px;
+        font-weight: 500;
+        color: rgb(15, 2, 2);
+    
+    }
+
+    #hidden-row-1{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 770px) {
+    .woman-spring h1{
+        font-size: 41px;
+        font-weight: 700;
+        
+       
+    }
+
+    .woman-spring h2{
+        font-size: 24px;
+        font-weight: 500;
+        color: black;
+    
+    }
+    
+    .woman-spring p{
+        font-size: 11px;
+        font-weight: 500;
+        margin-top: 26px !important;
+    }
+
+    .woman-spring-2 p{
+        font-weight: 600;
+        font-size: 12px;
+    
+    }
+    
+    .woman-spring-2 h2{
+        font-size: 21px;
+        font-weight: 900;
+        color: rgb(84, 0, 100);
+    
+    }
+    
+    .woman-spring-2 h1{
+        font-size: 42px;
+        font-weight: 900;
+        color: rgb(109, 4, 65);
+    
+    }
+    
+    .woman-spring-2 h3{
+        font-size: 14px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+    
+    }
+
+    .man-special p{
+        font-weight: 600;
+        font-size: 15px;
+        color: rgb(43, 42, 43);
+    }
+
+    .man-special h2{
+        font-size: 20px;
+        font-weight: 700;
+        color: rgb(1, 45, 75);
+    
+    }
+    
+    .man-special h1{
+        font-size: 48px;
+        font-weight: 900;
+        color: rgb(160, 4, 4);
+    
+    }
+    
+    .man-special h3{
+        font-size: 16px;
+        font-weight: 500;
+        color: rgb(15, 2, 2);
+    
+    }
+
+    #hidden-row{
+        display: none;
+    }
+
+    #hidden-row-1{
+        display: inline-flex;
+    }
+
+    .follow{
+        margin-right: 10px; 
+        font-size: 32px;
+        
+    }
+    
+}
+
+@media only screen and (min-width: 1032px){
+    #hidden-row{
+        display: none;
+    }
+
+    #hidden-row-1{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    #hidden-row-1{
+        display: none;
+    }
+}
